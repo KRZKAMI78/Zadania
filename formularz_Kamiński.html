@@ -9,6 +9,8 @@
 <FORM>
 <TABLE>
 <TR>
+<h1>Formularz</h1>
+<TR>
 <TD Align="left">
 Imię <input type="text"><br>
 Nazwisko <input type="text"><br>
@@ -25,9 +27,11 @@ Płeć <select>
 <INPUT TYPE="checkbox" NAME="sytem" VALUE="ios"> iOS<br>
 <INPUT TYPE="checkbox" NAME="sytem" VALUE="windows"> Windows Mobile<br>
 <INPUT TYPE="checkbox" NAME="sytem" VALUE="inne">inny<br>
+Jeśli wybrałeśinne, napisz swój preferowany system(y) poniżej:<br>
+<TEXTAREA NAME=tekst1 ROWS=1 COLS=55></TEXTAREA>
 </p>
 <TD>
-<TD align=center>
+<TD align=middle>
 <p>Wybierz swój przedział wiekowy<br>
 1. <13<br>
 2. 13-18<br>
@@ -36,13 +40,29 @@ Płeć <select>
 1.<input type="radio" name="wiek" value="11" checked>
 2.<input type="radio" name="wiek" value="12"><br>
 3.<input type="radio" name="wiek" value="13"> 
-4.<input type="radio" name="wiek" value="14">
+4.<input type="radio" name="wiek" value="14"><br>
+Dokładna data urodzenia:<br>
+<input type="date"><br>
 
+<TD>
+<TD>
+<TD>
+<TD align=right>
+<TEXTAREA NAME=tekst2 ROWS=10 COLS=50>wiadomość do nas</TEXTAREA> 
 <TR>
-<TD><nobr><input type="reset" value="CZYŚĆ" style="height:45px; width:75px">
-<TD> <input type="submit" value"=WYŚLIJ" style="height:45px; width:75px"> </TD>
-<br><A HREF="index.html">wróć</A>
+<TD>
+<TD>
+<TD>
+<TD>
+<TD>
+<TD>
+<TD align=right>
+Data wypełnienia:<br>
+<input type="date"><br>
+<input type="reset" value="CZYŚĆ" style="height:45px; width:75px">
+<input type="submit" value"=WYŚLIJ" style="height:45px; width:75px"> </TD>
 </TABLE>
 </FORM> 
+<br><A HREF="index.html">wróć</A>
  </body>
 </html>
